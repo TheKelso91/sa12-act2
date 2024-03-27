@@ -1,7 +1,7 @@
 require 'httparty'
 require 'json'
 
-username = "TheKelso91"
+username = 'TheKelso91'
 url = "https://api.github.com/users/#{username}/repos"
 
 response = HTTParty.get(url)
